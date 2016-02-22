@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F720E8581C7AB79900EF944F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F720E8571C7AB79900EF944F /* main.m */; };
+		F720E85B1C7AB79900EF944F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F720E85A1C7AB79900EF944F /* AppDelegate.m */; };
+		F720E85E1C7AB79900EF944F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F720E85D1C7AB79900EF944F /* ViewController.m */; };
+		F720E8611C7AB79900EF944F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F720E85F1C7AB79900EF944F /* Main.storyboard */; };
+		F720E8631C7AB79900EF944F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F720E8621C7AB79900EF944F /* Assets.xcassets */; };
+		F720E8661C7AB79900EF944F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F720E8641C7AB79900EF944F /* LaunchScreen.storyboard */; };
+		F720E8711C7AB79900EF944F /* BHBPieChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F720E8701C7AB79900EF944F /* BHBPieChartTests.m */; };
+		F720E87C1C7AB79900EF944F /* BHBPieChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F720E87B1C7AB79900EF944F /* BHBPieChartUITests.m */; };
+		F720E88D1C7AB7E000EF944F /* BHBPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F720E88C1C7AB7E000EF944F /* BHBPieChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F720E86D1C7AB79900EF944F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F720E84B1C7AB79900EF944F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F720E8521C7AB79900EF944F;
+			remoteInfo = BHBPieChart;
+		};
+		F720E8781C7AB79900EF944F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F720E84B1C7AB79900EF944F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F720E8521C7AB79900EF944F;
+			remoteInfo = BHBPieChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F720E8531C7AB79900EF944F /* BHBPieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHBPieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F720E8571C7AB79900EF944F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F720E8591C7AB79900EF944F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F720E85A1C7AB79900EF944F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F720E85C1C7AB79900EF944F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F720E85D1C7AB79900EF944F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F720E8601C7AB79900EF944F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F720E8621C7AB79900EF944F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F720E8651C7AB79900EF944F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F720E8671C7AB79900EF944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F720E86C1C7AB79900EF944F /* BHBPieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHBPieChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F720E8701C7AB79900EF944F /* BHBPieChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBPieChartTests.m; sourceTree = "<group>"; };
+		F720E8721C7AB79900EF944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F720E8771C7AB79900EF944F /* BHBPieChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHBPieChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F720E87B1C7AB79900EF944F /* BHBPieChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBPieChartUITests.m; sourceTree = "<group>"; };
+		F720E87D1C7AB79900EF944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F720E88B1C7AB7E000EF944F /* BHBPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPieChart.h; sourceTree = "<group>"; };
+		F720E88C1C7AB7E000EF944F /* BHBPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBPieChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F720E8501C7AB79900EF944F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720E8691C7AB79900EF944F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720E8741C7AB79900EF944F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F720E84A1C7AB79900EF944F = {
+			isa = PBXGroup;
+			children = (
+				F720E8551C7AB79900EF944F /* BHBPieChart */,
+				F720E86F1C7AB79900EF944F /* BHBPieChartTests */,
+				F720E87A1C7AB79900EF944F /* BHBPieChartUITests */,
+				F720E8541C7AB79900EF944F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F720E8541C7AB79900EF944F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F720E8531C7AB79900EF944F /* BHBPieChart.app */,
+				F720E86C1C7AB79900EF944F /* BHBPieChartTests.xctest */,
+				F720E8771C7AB79900EF944F /* BHBPieChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F720E8551C7AB79900EF944F /* BHBPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				F720E88A1C7AB7CA00EF944F /* BHBPieChart */,
+				F720E8591C7AB79900EF944F /* AppDelegate.h */,
+				F720E85A1C7AB79900EF944F /* AppDelegate.m */,
+				F720E85C1C7AB79900EF944F /* ViewController.h */,
+				F720E85D1C7AB79900EF944F /* ViewController.m */,
+				F720E85F1C7AB79900EF944F /* Main.storyboard */,
+				F720E8621C7AB79900EF944F /* Assets.xcassets */,
+				F720E8641C7AB79900EF944F /* LaunchScreen.storyboard */,
+				F720E8671C7AB79900EF944F /* Info.plist */,
+				F720E8561C7AB79900EF944F /* Supporting Files */,
+			);
+			path = BHBPieChart;
+			sourceTree = "<group>";
+		};
+		F720E8561C7AB79900EF944F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F720E8571C7AB79900EF944F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F720E86F1C7AB79900EF944F /* BHBPieChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				F720E8701C7AB79900EF944F /* BHBPieChartTests.m */,
+				F720E8721C7AB79900EF944F /* Info.plist */,
+			);
+			path = BHBPieChartTests;
+			sourceTree = "<group>";
+		};
+		F720E87A1C7AB79900EF944F /* BHBPieChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F720E87B1C7AB79900EF944F /* BHBPieChartUITests.m */,
+				F720E87D1C7AB79900EF944F /* Info.plist */,
+			);
+			path = BHBPieChartUITests;
+			sourceTree = "<group>";
+		};
+		F720E88A1C7AB7CA00EF944F /* BHBPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				F720E88B1C7AB7E000EF944F /* BHBPieChart.h */,
+				F720E88C1C7AB7E000EF944F /* BHBPieChart.m */,
+			);
+			path = BHBPieChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F720E8521C7AB79900EF944F /* BHBPieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F720E8801C7AB79900EF944F /* Build configuration list for PBXNativeTarget "BHBPieChart" */;
+			buildPhases = (
+				F720E84F1C7AB79900EF944F /* Sources */,
+				F720E8501C7AB79900EF944F /* Frameworks */,
+				F720E8511C7AB79900EF944F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHBPieChart;
+			productName = BHBPieChart;
+			productReference = F720E8531C7AB79900EF944F /* BHBPieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F720E86B1C7AB79900EF944F /* BHBPieChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F720E8831C7AB79900EF944F /* Build configuration list for PBXNativeTarget "BHBPieChartTests" */;
+			buildPhases = (
+				F720E8681C7AB79900EF944F /* Sources */,
+				F720E8691C7AB79900EF944F /* Frameworks */,
+				F720E86A1C7AB79900EF944F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F720E86E1C7AB79900EF944F /* PBXTargetDependency */,
+			);
+			name = BHBPieChartTests;
+			productName = BHBPieChartTests;
+			productReference = F720E86C1C7AB79900EF944F /* BHBPieChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F720E8761C7AB79900EF944F /* BHBPieChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F720E8861C7AB79900EF944F /* Build configuration list for PBXNativeTarget "BHBPieChartUITests" */;
+			buildPhases = (
+				F720E8731C7AB79900EF944F /* Sources */,
+				F720E8741C7AB79900EF944F /* Frameworks */,
+				F720E8751C7AB79900EF944F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F720E8791C7AB79900EF944F /* PBXTargetDependency */,
+			);
+			name = BHBPieChartUITests;
+			productName = BHBPieChartUITests;
+			productReference = F720E8771C7AB79900EF944F /* BHBPieChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F720E84B1C7AB79900EF944F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bihongbo;
+				TargetAttributes = {
+					F720E8521C7AB79900EF944F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F720E86B1C7AB79900EF944F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F720E8521C7AB79900EF944F;
+					};
+					F720E8761C7AB79900EF944F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F720E8521C7AB79900EF944F;
+					};
+				};
+			};
+			buildConfigurationList = F720E84E1C7AB79900EF944F /* Build configuration list for PBXProject "BHBPieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F720E84A1C7AB79900EF944F;
+			productRefGroup = F720E8541C7AB79900EF944F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F720E8521C7AB79900EF944F /* BHBPieChart */,
+				F720E86B1C7AB79900EF944F /* BHBPieChartTests */,
+				F720E8761C7AB79900EF944F /* BHBPieChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F720E8511C7AB79900EF944F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720E8661C7AB79900EF944F /* LaunchScreen.storyboard in Resources */,
+				F720E8631C7AB79900EF944F /* Assets.xcassets in Resources */,
+				F720E8611C7AB79900EF944F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720E86A1C7AB79900EF944F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720E8751C7AB79900EF944F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F720E84F1C7AB79900EF944F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720E88D1C7AB7E000EF944F /* BHBPieChart.m in Sources */,
+				F720E85E1C7AB79900EF944F /* ViewController.m in Sources */,
+				F720E85B1C7AB79900EF944F /* AppDelegate.m in Sources */,
+				F720E8581C7AB79900EF944F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720E8681C7AB79900EF944F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720E8711C7AB79900EF944F /* BHBPieChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720E8731C7AB79900EF944F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720E87C1C7AB79900EF944F /* BHBPieChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F720E86E1C7AB79900EF944F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F720E8521C7AB79900EF944F /* BHBPieChart */;
+			targetProxy = F720E86D1C7AB79900EF944F /* PBXContainerItemProxy */;
+		};
+		F720E8791C7AB79900EF944F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F720E8521C7AB79900EF944F /* BHBPieChart */;
+			targetProxy = F720E8781C7AB79900EF944F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F720E85F1C7AB79900EF944F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F720E8601C7AB79900EF944F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F720E8641C7AB79900EF944F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F720E8651C7AB79900EF944F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F720E87E1C7AB79900EF944F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F720E87F1C7AB79900EF944F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F720E8811C7AB79900EF944F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BHBPieChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBPieChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F720E8821C7AB79900EF944F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BHBPieChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBPieChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F720E8841C7AB79900EF944F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BHBPieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BHBPieChart.app/BHBPieChart";
+			};
+			name = Debug;
+		};
+		F720E8851C7AB79900EF944F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BHBPieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BHBPieChart.app/BHBPieChart";
+			};
+			name = Release;
+		};
+		F720E8871C7AB79900EF944F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BHBPieChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBPieChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BHBPieChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F720E8881C7AB79900EF944F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BHBPieChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.BHBPieChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BHBPieChart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F720E84E1C7AB79900EF944F /* Build configuration list for PBXProject "BHBPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720E87E1C7AB79900EF944F /* Debug */,
+				F720E87F1C7AB79900EF944F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F720E8801C7AB79900EF944F /* Build configuration list for PBXNativeTarget "BHBPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720E8811C7AB79900EF944F /* Debug */,
+				F720E8821C7AB79900EF944F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F720E8831C7AB79900EF944F /* Build configuration list for PBXNativeTarget "BHBPieChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720E8841C7AB79900EF944F /* Debug */,
+				F720E8851C7AB79900EF944F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F720E8861C7AB79900EF944F /* Build configuration list for PBXNativeTarget "BHBPieChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720E8871C7AB79900EF944F /* Debug */,
+				F720E8881C7AB79900EF944F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F720E84B1C7AB79900EF944F /* Project object */;
+}
