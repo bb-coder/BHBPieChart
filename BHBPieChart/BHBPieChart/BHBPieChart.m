@@ -53,14 +53,6 @@
     return self;
 }
 
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    self.animationType = kPieAnimationTypeChangeValue;
-    self.linespace = 0;
-    [self setColorsArray:@[[UIColor redColor],[UIColor greenColor],[UIColor blueColor]]];
-    [self setNumbersArray:@[@(0.5),@(0.5),@(0.5)]];
-}
-
 - (void)setNumbersArray:(NSArray *)numbersArray{
     NSMutableArray * tempArray = [NSMutableArray array];
     NSMutableArray * tempColorArray = [NSMutableArray arrayWithArray:self.colorsArray];
@@ -70,7 +62,7 @@
             [tempArray addObject:num];
         }else{
             if(i < tempColorArray.count)
-            [tempColorArray removeObjectAtIndex:i];
+                [tempColorArray removeObjectAtIndex:i];
         }
     }
     numbersArray = [tempArray copy];
@@ -81,7 +73,12 @@
     self.caLink = nil;
     self.animationDurationInteval = 0;
     if(self.animationType == kPieAnimationTypeLiner)
-    [self.lines makeObjectsPerformSelector:@selector(removeFromSuperlayer)];
+    {
+        for (CAShapeLayer * sl in self.lines) {
+            sl.path = nil;
+            [sl removeFromSuperlayer];
+        }
+    }
     for (int i = 0; i < numbersArray.count; i ++) {
         CAShapeLayer * sl;
         if (self.lines.count > i) {
@@ -186,12 +183,12 @@
         }
     }
     if(i < self.numbersArray.count){
-    for (; i < self.numbersArray.count; i ++) {
-        CAShapeLayer * sl = [self addLineWithColor:self.colorsArray[i]];
-        [self.lines addObject:sl];
-        [self.layer addSublayer:sl];
-        [numbersArray addObject:@([self.numbersArray[i] floatValue] * rate)];
-    }
+        for (; i < self.numbersArray.count; i ++) {
+            CAShapeLayer * sl = [self addLineWithColor:self.colorsArray[i]];
+            [self.lines addObject:sl];
+            [self.layer addSublayer:sl];
+            [numbersArray addObject:@([self.numbersArray[i] floatValue] * rate)];
+        }
     }
     
     NSMutableArray * tempArray = [NSMutableArray array];
@@ -202,7 +199,7 @@
             [tempArray addObject:num];
         }else{
             if(i < tempColorArray.count)
-            [tempColorArray removeObjectAtIndex:i];
+                [tempColorArray removeObjectAtIndex:i];
         }
     }
     numbersArray = [tempArray copy];
